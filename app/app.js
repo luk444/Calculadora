@@ -32,10 +32,10 @@ while (continuar) {
       alert("El resultado es: " + resultado);
       let respuesta = prompt("¿Desea realizar otro calculo :) ? (s/n)");
       if (respuesta.toLowerCase() !== "n") {
-        continuar = false;
+        continuar = true;
       } else {
         alert("Gracias por usar mi primer calculadora :)"); // Agregamos el símbolo "Se completo" para indicar al usuario que se ha completado la operación.
-        break
+        
       }
     }
   }
